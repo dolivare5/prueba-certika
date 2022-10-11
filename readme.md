@@ -43,5 +43,15 @@
       si no es así, se debe cambiar el puerto en el fichero `docker-compose.yaml` y en el fichero `.env`.
     * También si así se desea, se puede cambiar el nombre de la base de datos en el fichero `.env`.
 5. Ejecutar el comando `yarn start:dev` para ejecutar la aplicación del lado del servidor.
-6. Abrir el navegador y acceder a la dirección `http://localhost:8080/api` para acceder a la documentación de la API
+    Tenga en cuenta que la aplicación se ejecutará en el puerto 3004, por lo que si este puerto está ocupado, se debe
+    cambiar en el fichero `main.ts` y en el fichero `.env`.
+6. Abrir el navegador y acceder a la dirección `http://localhost:3004/api` para acceder a la documentación de la API
    o a través de postman.
+
+## Pasos para la ejecución de la aplicación del lado del cliente
+
+1. Abrir una terminal en el directorio donde se ha clonado el repositorio.
+2. Ejecutar el comando `npm i` para instalar las dependencias del proyecto.
+3. Ejecutar el comando `npm run dev` para ejecutar la aplicación del lado del cliente.
+    Tenga en cuenta que la aplicación se ejecutará en el puerto 3000, por lo que si este puerto está ocupado, se debe
+    cambiar en el fichero `next.config.js`.
