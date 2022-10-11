@@ -46,7 +46,8 @@
     Tenga en cuenta que la aplicación se ejecutará en el puerto 3004, por lo que si este puerto está ocupado, se debe
     cambiar en el fichero `main.ts` y en el fichero `.env`.
 6. Abrir el navegador y acceder a la dirección `http://localhost:3004/api` para acceder a la documentación de la API
-   o a través de postman.
+   o a través de postman a través de la dirección `https://postman.com/restless-rocket-11861/workspace/api-prueba-certika`
+   en el que se encuentra la colección de la API.
 
 ## Pasos para la ejecución de la aplicación del lado del cliente
 
